@@ -10,11 +10,14 @@ public class CropsItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(ChaoticDelights.MOD_ID);
 
     public static final DeferredItem<Item> STRAWBERRY = ITEMS.register("strawberry",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().food(ModFoodProperties.STRAWBERRY)));
+
+    public static final DeferredItem<Item> ZUCCHINI = ITEMS.register("zucchini",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.ZUCCHINI)));
+
     public static final DeferredItem<Item> BUCKWHEAT = ITEMS.register("buckwheat",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> ZUCCHINI = ITEMS.register("zucchini",
-            () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
