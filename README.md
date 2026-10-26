@@ -3,3 +3,5 @@ Chaotic Delights
 =======
 
 Chaotic Delights is a Farmer's Delight addon that does not necessarily try to fit a certain theme. Additions are rather arbitrary and are mostly based on what I personally felt like adding to the game.
+
+**This repo is no longer maintained. For the up-to-date code, visit this repository on [Codeberg](https://codeberg.org/Cha0ticW/ChaoticDelights)**
